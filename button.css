@@ -1,0 +1,40 @@
+a.logo
+{
+    text-decoration: none;
+    border-style: none;
+}
+a.logo:hover
+{
+    border-style: none;
+}
+a
+{
+    border:15px solid #44008b;
+    border-radius:25px;
+    padding:5px;
+    background-color:#00076f;
+    border-style:outset;
+    font-size:30;
+    box-shadow: 1px 1px 15px 2px #9f45b0;
+
+    color:#ffe4f2;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, "Noto Sans JP", sans-serif;
+    text-decoration:none;
+}
+a:hover
+{
+    border-style: dashed;
+    color: white;
+}
+p.text
+{
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+p.text:hover
+{
+    transform: scale(1.1);
+}
+body
+{
+    overflow: hidden;
+}
